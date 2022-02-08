@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&display=swap');
+
+*{
+
+    font: bold 14px Arial, sans-serif;
+    background: url(bd.jpg) no-repeat;
+    background-size: cover;  
+    background-position: center;
+}
+h1{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(14, 13, 13);
+    background: transparent;
+    margin-top: 150px;
+    font-family: 'Inconsolata', monospace;
+    
+}
+
+.container{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background: transparent;
+}
+
+div{
+    background: transparent;
+}
+
+#calculator{
+
+    width: 325px;
+    height: auto;
+
+    margin: 100px auto;
+    padding: 10px 20px 9px;
+
+    background: transparent;
+    border-radius: 3px;
+    box-shadow: 0px 4px transparent, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+button{
+
+    width: 66px;
+    height: 36px;
+
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+
+    margin: 0 7px 11px 0;
+
+    color: rgb(20, 16, 16);
+    line-height: 36px;
+    text-align: center;
+
+}
+button.operator
+{
+    background: #FFF0F5;
+    margin-right: 0;
+}
+button.reset{
+    width: 100px;
+    height: 36px;
+
+    background: #f85555;
+    box-shadow: 0px 4px transparent;
+    color: white;
+
+}
+button.eval{
+    width: 100px;
+    height: 36px;
+
+    background: #f1ff92;
+    box-shadow: 0px 4px transparent;
+    color: #888e5f;
+}
+input{
+    height: 40px;
+    width: 262px;
+    margin: 5px;
+
+    padding: 0 10px;
+
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+
+    /* Typography */
+    font-size: 17px;
+    line-height: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-align: right;
+    letter-spacing: 1px
+}
+
+button:hover {
+    background: #9c89f6;
+    box-shadow: 0px 4px transparent;
+    color: white;
+}
+
+button.eval:hover {
+    background: #6bce89;
+    box-shadow: 0px 4px transparent;
+    color: #ffffff;
+}
+
+button.reset:hover {
+    background: #fc8e72;
+    box-shadow: 0px 4px transparent;
+    color: white;
+}
+
+button:active {
+    box-shadow: 0px 0px #6b54d3;
+    top: 4px;
+}
+
+button.eval:active {
+    box-shadow: 0px 0px transparent;
+    top: 4px;
+}
+
+button.reset:active {
+    top: 4px;
+    box-shadow: 0px 0px #d36d7a;
+}
